@@ -1,0 +1,24 @@
+{
+  "name": "@lateralrun/docs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Learn how to run your customer's code from your app",
+  "homepage": "https://github.com/lateralrun/docs#readme",
+  "bugs": "https://github.com/lateralrun/docs/issues",
+  "license": "MIT",
+  "main": "README.md",
+  "repository": "lateralrun/docs",
+  "scripts": {
+    "lint": "prettier --check '**'",
+    "lint:fix": "prettier --write '**'",
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "prettier": "1.19.1",
+    "release-it": "^13.5.1"
+  },
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  }
+}
