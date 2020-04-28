@@ -8,5 +8,7 @@
     "release": true,
     "releaseName": "Release v${version}"
   },
-  "npm": false
+  "npm": {
+    "publish": false
+  }
 }
