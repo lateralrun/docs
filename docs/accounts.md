@@ -17,8 +17,8 @@ represent them in Lateral.run.
 ## Creating an Account
 
 We auto-create accounts when we see a new one referenced in an
-[Authentication](docs/authentication.md) token (the `sub` field) for the first
-time. So, for example, the first time they view the embedded code editor in your
+[Authentication](authentication.md) token (the `sub` field) for the first time.
+So, for example, the first time they view the embedded code editor in your
 frontend, we create an account to represent them on our side. You don't have to
 explicitly create new accounts for your customers before they can use
 Lateral.run.
