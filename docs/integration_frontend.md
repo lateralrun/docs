@@ -7,8 +7,7 @@ To integrate the Lateral.run code editor into your frontend, simply embed an
 <iframe src="https://app.lateral.run/editor?token={{TOKEN}}" />
 ```
 
-See [Authentication](docs/authentication.md) for instructions on building the
-token.
+See [Authentication](authentication.md) for instructions on building the token.
 
 ## Node.js
 
