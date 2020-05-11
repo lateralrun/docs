@@ -10,3 +10,9 @@
 ## Clients
 
 - [Node.js](https://github.com/lateralrun/node)
+
+## Changelog
+
+Latest: [v0.3.0](changelog/0.3.0.md)
+
+See the [changelog](changelog) directory for details about previous releases.
