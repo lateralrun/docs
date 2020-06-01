@@ -21,7 +21,10 @@ There are just a few things to be aware of:
 
 ## Dependencies
 
-If the package can be installed publicly via npm, then it's available to use.
+If the package can be installed publicly via npm, then it's available to use,
+with one caveat: we don't run install scripts (for security reasons), so
+packages that depend on them won't work.
+
 Built-in Node.js modules, such as `querystring`, are also available.
 
 ## Variables
