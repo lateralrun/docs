@@ -1,6 +1,6 @@
 {
   "name": "@lateralrun/docs",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "description": "Learn how to run your customer's code from your app",
   "homepage": "https://github.com/lateralrun/docs#readme",
