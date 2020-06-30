@@ -13,6 +13,6 @@
 
 ## Changelog
 
-Latest: [v0.6.0](changelog/v0.6.0.md)
+Latest: [v0.7.0](changelog/v0.7.0.md)
 
 See the [changelog](changelog) directory for details about previous releases.
