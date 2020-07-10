@@ -35,7 +35,8 @@ should generate a JWT with the following structure:
 ```
 
 - `sub` ensures the token can only be used to access resources belonging to the
-  specified account (i.e., your customer).
+  specified account (i.e., your customer). App-level operations, such as
+  deleting an account, should not set this field.
 - `exp` should be a timespan you're comfortable with relative to `iat`. For
   example, the [Node.js client](https://github.com/lateralrun/node) defaults to
   30 seconds for API requests (since it generates a new one for every request)
