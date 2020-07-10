@@ -11,7 +11,7 @@ your customers don't have to learn lots of Lateral.run nuances to get started.
 There are just a few things to be aware of:
 
 - `data` is an object containing the values passed by the app. There's no need
-  to declare or important this variable – it's just available.
+  to declare or import this variable – it's just available.
 - A `return` statement passes data back to the app (which it may or may not
   use). Any value that can be converted to JSON is valid, such as an object,
   string, number, or boolean. If no `return` statement is used, the value passed
