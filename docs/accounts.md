@@ -26,6 +26,12 @@ Lateral.run.
 That said, you can manually create one by heading to the _Accounts_ section of
 Lateral.run and looking for the _New_ button.
 
+## Deleting an Account
+
+When an account is deleted from your app, you can instruct us to delete the
+account and all associated code/data from Lateral.run as well via API request.
+See [Integration: Backend](integration_backend.md) for more details.
+
 ## Namespacing
 
 You can represent more than one type of customer by namespacing the identifier
